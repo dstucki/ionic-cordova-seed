@@ -1,0 +1,13 @@
+### npm
+node_modules/
+
+### cordova
+platforms/
+plugins/
+www/
+
+### bower
+app/lib/
+
+### gulp
+gulpconfig.js

@@ -1,0 +1,13 @@
+<ion-side-menu class="m-menu-left" side="left">
+    <ion-content>
+        <ion-list>
+            <ion-item 
+                ng-repeat="item in menuLeftItems" 
+                menu-close 
+                nav-clear 
+                ui-sref="app.home">
+              {{item}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-side-menu>
